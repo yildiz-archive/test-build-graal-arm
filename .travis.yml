@@ -12,4 +12,4 @@ before_install:
 
 script:
   - chmod +x run.sh
-  - travis_retry docker -v /src:/ run moussavdb/build-graalvm-arm64 run.sh
+  - travis_retry docker -v /src:/ run moussavdb/build-graalvm-arm64 ls -l
