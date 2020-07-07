@@ -11,4 +11,4 @@ before_install:
   - docker pull moussavdb/build-graalvm-arm64
 
 script:
-  - travis_retry docker -v /src:/ run moussavdb/build-graalvm-arm64 /bin/bash -c "javac be/yildizgames/test/arm/*.java; ls -l"
+  - travis_retry docker -v /src:/ run moussavdb/build-graalvm-arm64 /bin/bash "javac be/yildizgames/test/arm/*.java; ls -l"
