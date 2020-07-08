@@ -5,3 +5,9 @@ native-image be.yildizgames.test.arm.Test
 java be.yildizgames.test.arm.Test
 
 ls -l
+
+cd be.yildizgames.test.arm.Test
+
+ls -l
+
+./Test
