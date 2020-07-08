@@ -6,8 +6,4 @@ java be.yildizgames.test.arm.Test
 
 ls -l
 
-cd be.yildizgames.test.arm.Test
-
-ls -l
-
-./Test
+./be.yildizgames.test.arm.test
